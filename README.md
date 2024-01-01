@@ -86,14 +86,16 @@ Compensation from the persistence layer.
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
 
 ## Testing new endpoints
-For task one, endpoint (GET)localhost:8080/reportingStructure/16a596ae-edd3-4847-99fe-c4518e82c86f, should return the employee along with the numberOfReports value being 4
+For task one, endpoint (GET)**localhost:8080/reportingStructure/16a596ae-edd3-4847-99fe-c4518e82c86f**, should return the employee along with the numberOfReports value being 4
 
-For task two you can test with initial request (POST)localhost:8080/compensation with body:
+For task two you can test with initial request (POST)**localhost:8080/compensation** with body:
+```
 {
     "employee" : "16a596ae-edd3-4847-99fe-c4518e82c86f",
     "salary" : 50050.00,
     "effectiveDate" : "06-05-2024"
 }
+```
 
-And retrieve data with (GET)localhost:8080/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f
+And retrieve data with (GET)**localhost:8080/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f**
 
